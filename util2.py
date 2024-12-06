@@ -1,4 +1,4 @@
-def parseBoolValue(value: str | None, fail_on_errors: bool = True, preserve_none: bool = False) -> bool | None:
+def parse_bool_value(value: str | None, fail_on_errors: bool = True, preserve_none: bool = False) -> bool | None:
     """Parses a string representing a boolean value. If parsing was successful,
        returns `True` or `False`. If `preserve_none=True`, returns `True`, `False`,
        or `None`. If parsing was not successful, raises `ValueError`, or, if
